@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Saro Industry Services</title>
+  <link rel="stylesheet" href="style.css">
+     <link rel="icon" href="./Assets/Logo.PNG" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="https://kit.fontawesome.com/eec67f362c.js" crossorigin="anonymous"></script>
+  <script>
+    (function(){
+      emailjs.init("-TVvaKEAMu6xHcW7I");
+    })();
+  </script>
+</head>
+<body>
+ 
+    
+ <div class="popup-overlay" id="enquiry-popup">
+  <div class="popup-content">
+    <span class="close-btn" id="close-popup">&times;</span>
+    <h2>Request for Enquiry</h2>
+    <form id="popup-contact-form">
+      <input type="text" name="Name" placeholder="Your Name" required>
+      <input type="email" name="Phonenumber" placeholder="Your Phone Number" required>
+      <textarea name="Job" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</div>
+
+  <header>
+    <img src="./Assets/Logo.PNG" alt="logo">
+    <h1>Saro Industries</h1>
+    <div class="info">
+      <span>📧 Saroind@yahoo.com</span>
+      <span>📞 +91-9751681344</span>
+     <!-- Inside your <header> -->
+<button id="open-enquiry" title="Request Enquiry">📩Enquiry</button>
+
+    </div>
+  </header>
+  <!-- Carosel containers the carosel image with v block -->
+ <div class="carousel">
+    <img src="https://investmentcastchina.com/wp-content/uploads/2024/01/CNC-Turning.jpeg" class="active" alt="CNC Machining">
+    <img src="https://s.alicdn.com/@sc04/kf/He8a9bea0fce04a82856508da5906cf32S.jpg" alt="Thread Rolling">
+    <img src="https://cdn-cdaik.nitrocdn.com/SwYnPSQcoOnqbmmHsyLEXZFZDkxPYsBD/assets/static/optimized/rev-73cb738/wp-content/uploads/2021/01/What-Are-CNC-Lathe-Machines.jpg" alt="DRO">
+    <img src="https://waykenrm.com/wp-content/uploads/2023/07/semi-synthetic-fluids-optimized.jpg" alt="lathe">
+  </div>
+
+  <!-- Services sections contains the list of operations done here  -->
+  <section id="services">
+  <h2>Our Services</h2>
+
+  <div class="service-box">
+    <div class="service-img">
+      <img src="https://investmentcastchina.com/wp-content/uploads/2024/01/CNC-Turning.jpeg" alt="Thread Rolling">
+    </div>
+    <div class="service-text">
+      <h3>Thread Rolling</h3>
+      <p>We offer high-precision thread rolling services that ensure strength and consistency for various industrial applications. Our machines handle different materials and thread standards efficiently.</p>
+    </div>
+  </div>
+
+  <div class="service-box reverse">
+    
+    <div class="service-img">
+      <img src="https://cdn-cdaik.nitrocdn.com/SwYnPSQcoOnqbmmHsyLEXZFZDkxPYsBD/assets/static/optimized/rev-73cb738/wp-content/uploads/2021/01/What-Are-CNC-Lathe-Machines.jpg" alt="CNC Machining">
+    </div>
+    <div class="service-text">
+      <h3>CNC Machining</h3>
+      <p>Our CNC Machining division delivers high-accuracy components with tight tolerances using advanced multi-axis machines. Ideal for complex part geometry and production scalability.</p>
+    </div>
+  </div>
+
+  <div class="service-box">
+    <div class="service-img">
+      <img src="https://s.alicdn.com/@sc04/kf/He8a9bea0fce04a82856508da5906cf32S.jpg" alt="Centerless Grinding">
+    </div>
+    <div class="service-text">
+      <h3>Centerless Grinding</h3>
+      <p>Centerless grinding offers a high-quality surface finish and dimensional accuracy. It is perfect for cylindrical parts and large production runs, improving material throughput.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact details consists of request form  -->
+ 
+  <!-- Customer carosel contains Customer details  -->
+  <div class="customers-carousel">
+  <div class="customers-track">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZ35U5JaFo4LkBxTcCsxEitStbNH8IIqtSQ&s" alt="Propel">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOp41ua7a4cOLIElyyge7y07bF3S05d449xg&s" alt="Rolon">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq_EcAd5aiDNZnvR7zhiB8TkVgNa9ecPKmVA&s" alt="Pricol">
+    <img src="https://media.licdn.com/dms/image/v2/C560BAQFZEVEKUwm-Lg/company-logo_200_200/company-logo_200_200/0/1638269647237?e=2147483647&v=beta&t=a_7BNnj1n2RwfkuqjRubb4gCv0LxHvjn49442in8nDY" alt="LMW">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM7J9ixu7Rf0WjTs3I9VvStxMLv42e3AUX1A&s" alt="Jyothi">
+    <!-- duplicate images for seamless scroll -->
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZ35U5JaFo4LkBxTcCsxEitStbNH8IIqtSQ&s" alt="Propel">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOp41ua7a4cOLIElyyge7y07bF3S05d449xg&s" alt="Rolon">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq_EcAd5aiDNZnvR7zhiB8TkVgNa9ecPKmVA&s" alt="Pricol">
+    <img src="https://media.licdn.com/dms/image/v2/C560BAQFZEVEKUwm-Lg/company-logo_200_200/company-logo_200_200/0/1638269647237?e=2147483647&v=beta&t=a_7BNnj1n2RwfkuqjRubb4gCv0LxHvjn49442in8nDY" alt="LMW">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM7J9ixu7Rf0WjTs3I9VvStxMLv42e3AUX1A&s" alt="Jyothi">
+
+ 
+  </div>
+</div>
+<section id="about">
+  <div class="about-container">
+    <img src="./Assets//ownerpost.png" alt="Proprietor" class="owner-img">
+    <div class="about-text">
+      <h2>About Our Proprietor</h2>
+      <p>
+        Mr.C.V.Ajay Karthik, the founder of <strong>Saro Industries</strong>, has over 15 years of experience in mechanical manufacturing. His leadership ensures high-quality precision in CNC machining, thread rolling, and grinding operations.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+ <footer>
+  <div class="footer-container">
+    <div class="footer-column">
+      <h4>Our Processes</h4>
+      <ul>
+        <li><i class="fa-regular fa-hand-point-right fa-flip"></i>Thread Rolling</li>
+        <li><i class="fa-regular fa-hand-point-right fa-flip"></i>CNC Machining</li>
+        <li><i class="fa-regular fa-hand-point-right fa-flip"></i>Centerless Grinding</li>
+        <li><i class="fa-regular fa-hand-point-right fa-flip"></i>Turning</li>
+        <li><i class="fa-regular fa-hand-point-right fa-flip"></i>Surface Finishing</li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Why Choose Us?</h4>
+      <p>
+        With over a decade of experience, Saro Industries is known for its precision, quality, and reliable delivery.
+        Our commitment to excellence in every process makes us a trusted partner in the mechanical industry.
+      </p>
+    </div>
+    <div class="footer-column">
+      <h4>Contact Us</h4>
+      <p><i class="fa-solid fa-envelope fa-beat-fade"></i>Email: Saroind@yahoo.com</p>
+      <p><i class="fa-solid fa-phone-volume fa-shake"></i>Phone: +91-9751681344</p>
+      <p><i class="fa-solid fa-location-dot fa-beat"></i>Address: 154, PN Palayam Rd, Sivasakthi Colony, Ganapathy, Coimbatore, Tamil Nadu 641006</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Saro Industries. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
